@@ -1,0 +1,20 @@
+body {
+    background: white url("images/gif2.gif") no-repeat;
+    background-size: cover;
+}
+li a {
+    display: inline-block;
+    color: #04110a;
+    font-weight: 900;
+    line-height: 3;
+    font-size: larger;
+    text-decoration: none;
+    transition-duration: 300ms ;
+}
+a:hover{
+    transform: translateX(20px);
+    transition-duration: 300ms ;
+}
+li{
+    list-style: none;
+}
